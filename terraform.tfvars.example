@@ -1,0 +1,19 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and update with your values
+
+project_name     = "flask-webapp"
+environment      = "dev"
+environment_name = "dev"
+location         = "West Europe"
+app_service_sku  = "F1"  # Free tier for learning
+
+# GitHub repository configuration
+github_repo_url = "https://github.com/yourusername/flask-visitor-app.git"
+github_branch   = "main"
+
+# Cosmos DB configuration (serverless, pay-per-use)
+cosmos_database_name  = "webapp-db"
+cosmos_container_name = "visitor-logs"
+
+# Azure Subscription ID
+subscription_id = "00000000-xxxx-xxxx-xxxx-xxxxxxxxxxxx" # Replace with your actual subscription ID
