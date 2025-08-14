@@ -16,4 +16,4 @@ cosmos_database_name  = "webapp-db"
 cosmos_container_name = "visitor-logs"
 
 # Azure Subscription ID
-subscription_id = "00000000-xxxx-xxxx-xxxx-xxxxxxxxxxxx" # Replace with your actual subscription ID
+azure_subscription_id = "00000000-xxxx-xxxx-xxxx-xxxxxxxxxxxx" # Replace with your actual subscription ID
